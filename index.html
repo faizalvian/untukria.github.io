@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Untuk Ria</title>
+
+    <style>
+      body.modal-open > :not(.modal) {
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+body{
+    background-color: #343a40;
+    color: #fff;
+}
+    </style>
+  </head>
+  <body>
+    <div id="myModal" class="modal fade" data-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="exampleInputEmail1" class="text-dark">Password</label>
+                    <input type="password" class="form-control" id="pass" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">Passwordnya nama coffee shop terakhir kita ketemu</small>
+                </div>
+                <button type="button" class="btn btn-dark btn-block">Buka Pesan</button>
+            </div>
+        </div>
+    </div>
+</div>
+   <div class="text-justify mx-3 mt-3">
+    <p>
+     Assalamualaikum mba Ria
+    </p>
+    <div class="clearfix mb-3"></div>
+    <p>
+     Semoga kamu dalam keadaan sehat ya, sebelumnya maaf kalo aku sampaikan pesan ini diwaktu yg kurang tepat. Langsung <i>to the point</i> aja ya.
+     <div class="clearfix mb-3"></div>
+     Mba Emil udah cerita semua ke aku soal makanan yg waktu itu dibalikin.
+     Dari cerita yang aku denger, mantan kamu ngamuk gara-gara aku ngasih sesuatu ke kamu, trus disuruh balikin dan block WA aku.
+     <div class="clearfix mb-3"></div>  
+     Aku ngerti dan aku paham dengan kondisinya. Daripada kamu jadi sasaran amukan dia, sikap kamu buat nuruti apa kata dia udah benar. Aku juga gamau kamu dikasarin lagi sama dia.
+     <div class="clearfix mb-3"></div>
+     Dan kalo semisal ada alasan lain yang datangnya dari diri kamu. Seperti kamu merasa <i>ilfeel</i> dan terganggu dengan sikap aku pada waktu itu yang terlalu <i>intens</i>, aku bener-bener minta maaf.
+     <div class="clearfix mb-3"></div>
+     Aku masih pengen berteman sama kamu, aku mau berhubungan baik lagi sama kamu. Tapi kalo memang kondisinya aku harus berjarak dengan kamu, entah sampe kapan atau bahkan seterusnya. 
+     <div class="clearfix mb-3"></div>
+     Demi kebaikan kamu, aku akan terima keadaan ini. Yang terpenting buat aku adalah kamu selalu baik-baik aja.
+     <div class="clearfix mb-3"></div>
+     Apapun persoalan yang lagi kamu hadapi saat ini, aku berdoa semoga semuanya cepat selesai.
+     Aku yakin akan ada kebaikan besar yang lagi menanti kamu kedepannya, karna kamu perempuan baik-baik.
+     <div class="clearfix mb-3"></div>
+     Intinya aku bisa ngerti kondisi dan perasaan kamu. Jadi ga perlu dipermasalahkan lagi yaa
+    </p>
+   </div>
+   <br>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+        $("button").click(function(){
+            if ($('#pass').val() == 'Starbucks' || $('#pass').val() == 'starbucks' || $('#pass').val() == 'Starbuck' || $('#pass').val() == 'starbuck') {
+                $("#myModal").modal('hide');
+            }else{
+                alert('Password salah')
+            }
+        });
+	});
+</script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
